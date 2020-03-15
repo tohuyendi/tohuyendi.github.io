@@ -73,4 +73,7 @@ main{
   main{
     display: none;
   }
+  nav a{
+     display: list-item;
+  }
 }
