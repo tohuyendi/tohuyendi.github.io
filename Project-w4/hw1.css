@@ -65,12 +65,13 @@ main{
     display: flex;
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 14000px)
 {
   main{
     display: table;
   }
   nav a{
      display: list-item;
+     -webkit-border-radius: 3;
   }
 }
