@@ -65,13 +65,10 @@ main{
     display: flex;
 }
 
-@media screen and (min-width: 320px)
+@media screen and (max-width: 320px)
 {
-   hearder{
-       background-image:none;
-   }
   main{
-    display: none;
+    display: table;
   }
   nav a{
      display: list-item;
