@@ -18,7 +18,7 @@ h1
   }
 
 nav a
-  {   display: inline-block;
+  {   display:  list-item;
       margin: 2%;
 
       -webkit-border-radius: 3;
