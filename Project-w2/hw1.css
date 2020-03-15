@@ -64,3 +64,13 @@ nav a
 main{
     display: flex;
 }
+
+@media screen and (max-width: 320px)
+{
+   hearder{
+       background-image:none;
+   }
+  main{
+    display: none;
+  }
+}
