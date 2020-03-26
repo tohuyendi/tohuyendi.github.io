@@ -1,3 +1,4 @@
+// slider functions
 document.querySelector('.right').addEventListener('click', function() {
 
 	rightSlider()
@@ -45,13 +46,13 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 	$(".show-link").click(function() {
 
 
-	$(".video-2").css("margin-left", "0px");
+//	$(".video-2").css("margin-left", "0px");
 
 	for(var i = 3; i < 7; i++) {
 
 		if(document.querySelector(".video-" + i).style.display === "none") {
 
-			document.querySelector(".video-" + i).style.display = "block";
+			document.querySelector(".project-" + i).style.display = "block";
 
 			document.querySelector(".video-2").style.marginRight = "0px";
 
@@ -63,7 +64,7 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 		} else {
 
 			document.querySelector(".video-" + i).style.display = "none";
-			document.querySelector(".video-2").style.marginRight = "90px";
+//			document.querySelector(".video-2").style.marginRight = "90px";
 
 
 			$(".more").removeClass("toggle");
@@ -114,7 +115,7 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 
 // add function to mobile nav icons
 
-document.querySelector('.nav-icon').addEventListener('click', function()  {
+/*document.querySelector('.nav-icon').addEventListener('click', function()  {
 
 	document.querySelector('.menu').classList.add('opened');
 	document.querySelector('.menu').classList.remove('closed');
@@ -131,4 +132,4 @@ document.querySelector('.close').addEventListener('click', function() {
 	document.querySelector('.close').style.display = 'none';
 
 
-});
+});*/
